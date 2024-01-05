@@ -1,0 +1,34 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;   
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+nav li:hover{
+    background-color: rgb(151, 168, 173);
+}
+nav li .dropdown{
+    display: none;
+    position:absolute;
+    background-color: lightblue;
+    padding-left: 10px;
+
+}
+nav li:hover .dropdown{
+    display: block;
+}
